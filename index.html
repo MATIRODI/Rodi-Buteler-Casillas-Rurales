@@ -29,8 +29,9 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="preload" as="image" href="img/casilla-rural-alquiler-cordoba-sm.webp" imagesrcset="img/casilla-rural-alquiler-cordoba-sm.webp 720w, img/casilla-rural-alquiler-cordoba.webp 1400w" imagesizes="(min-width: 900px) 48vw, 100vw">
+<link href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="img/hero-traslado-casilla-rural.webp" media="(min-width: 701px)">
+<link rel="preload" as="image" href="img/hero-traslado-casilla-rural-movil.webp" media="(max-width: 700px)">
 <link rel="stylesheet" href="css/styles.css">
 
 <script type="application/ld+json">
@@ -124,28 +125,28 @@
 
 <!-- INICIO -->
 <section class="hero" id="inicio">
-  <div class="wrap hero-grid">
-    <div class="hero-copy">
-      <p class="hero-place">Villa Allende · Córdoba</p>
-      <h1>Alquiler de casillas rurales en Córdoba</h1>
-      <p class="lead">Casillas equipadas para cuadrillas de campo y obra: camas, cocina, agua y luz. Te la llevamos en carretón hasta donde la necesites.</p>
-      <div class="hero-actions">
-        <a class="btn btn-primary" href="#casillas">Ver casillas y precios</a>
-        <a class="btn btn-ghost" href="#cotizador">Calcular costo mensual</a>
+  <div class="wrap">
+    <div class="hero-panel">
+      <picture>
+        <source media="(max-width: 700px)" srcset="img/hero-traslado-casilla-rural-movil.webp" width="720" height="880">
+        <img class="hero-bg" src="img/hero-traslado-casilla-rural.webp" width="1200" height="640" fetchpriority="high"
+             alt="Casilla rural cargada en carretón, en viaje por ruta hacia una obra en Córdoba">
+      </picture>
+      <div class="hero-content">
+        <p class="hero-place">Villa Allende · Córdoba</p>
+        <h1>Alquiler de casillas rurales en Córdoba</h1>
+        <p class="lead">Casillas equipadas para cuadrillas de campo y obra: camas, cocina, agua y luz. Te la llevamos en carretón hasta donde la necesites.</p>
+        <div class="hero-actions">
+          <a class="btn btn-light" href="#casillas">Ver casillas y precios</a>
+          <a class="btn btn-glass" href="#cotizador">Calcular costo mensual</a>
+        </div>
       </div>
-      <dl class="hero-facts">
-        <div><dt>Alquiler</dt><dd>desde <strong>$250.000</strong>/mes</dd></div>
-        <div><dt>Traslado</dt><dd><strong>$3.500</strong> por km</dd></div>
-        <div><dt>Alquilando</dt><dd>desde <strong>2018</strong></dd></div>
-      </dl>
     </div>
-    <figure class="hero-media">
-      <img src="img/casilla-rural-alquiler-cordoba-sm.webp"
-           srcset="img/casilla-rural-alquiler-cordoba-sm.webp 720w, img/casilla-rural-alquiler-cordoba.webp 1400w"
-           sizes="(min-width: 900px) 48vw, 100vw"
-           width="1400" height="1277" fetchpriority="high"
-           alt="Casilla rural blanca de 7 metros sobre doble eje, lista para alquilar en Córdoba">
-    </figure>
+    <dl class="hero-facts">
+      <div><dt>Alquiler mensual</dt><dd>desde <strong>$250.000</strong></dd></div>
+      <div><dt>Traslado en carretón</dt><dd><strong>$3.500</strong> por km</dd></div>
+      <div><dt>Experiencia</dt><dd>alquilando desde <strong>2018</strong></dd></div>
+    </dl>
   </div>
 </section>
 
@@ -163,8 +164,9 @@
         <div class="unit-media">
           <button class="unit-photo" type="button" data-index="0" aria-label="Ver fotos de la casilla 4 camas">
             <img src="img/casilla-4-camas-exterior-sm.webp" srcset="img/casilla-4-camas-exterior-sm.webp 720w, img/casilla-4-camas-exterior.webp 1200w" sizes="(min-width: 1100px) 340px, (min-width: 700px) 46vw, 100vw" width="720" height="540" loading="lazy" decoding="async" alt="Casilla rural 4 camas blanca y azul, vista exterior">
+            <span class="photo-count">4 fotos</span>
           </button>
-          <ul class="thumbs">
+          <ul class="thumbs" hidden>
             <li><button type="button" data-index="0" data-src="img/casilla-4-camas-exterior.webp" data-alt="Casilla rural 4 camas, vista exterior"><img src="img/casilla-4-camas-exterior-th.webp" width="240" height="180" loading="lazy" alt=""></button></li>
             <li><button type="button" data-index="1" data-src="img/casilla-4-camas-lateral.webp" data-alt="Casilla rural 4 camas con lanza de tiro"><img src="img/casilla-4-camas-lateral-th.webp" width="240" height="180" loading="lazy" alt=""></button></li>
             <li><button type="button" data-index="2" data-src="img/casilla-4-camas-cocina.webp" data-alt="Mesada con bacha y alacenas de la casilla 4 camas"><img src="img/casilla-4-camas-cocina-th.webp" width="240" height="180" loading="lazy" alt=""></button></li>
@@ -198,8 +200,9 @@
         <div class="unit-media">
           <button class="unit-photo" type="button" data-index="0" aria-label="Ver fotos de la casilla 6 camas">
             <img src="img/casilla-6-camas-exterior-sm.webp" srcset="img/casilla-6-camas-exterior-sm.webp 720w, img/casilla-6-camas-exterior.webp 1400w" sizes="(min-width: 1100px) 340px, (min-width: 700px) 46vw, 100vw" width="720" height="540" loading="lazy" decoding="async" alt="Casilla rural 6 camas de 6,50 metros, vista exterior en el campo">
+            <span class="photo-count">3 fotos</span>
           </button>
-          <ul class="thumbs">
+          <ul class="thumbs" hidden>
             <li><button type="button" data-index="0" data-src="img/casilla-6-camas-exterior.webp" data-alt="Casilla rural 6 camas, vista exterior"><img src="img/casilla-6-camas-exterior-th.webp" width="240" height="180" loading="lazy" alt=""></button></li>
             <li><button type="button" data-index="1" data-src="img/casilla-6-camas-lateral.webp" data-alt="Casilla rural 6 camas, lateral con ventana"><img src="img/casilla-6-camas-lateral-th.webp" width="240" height="180" loading="lazy" alt=""></button></li>
             <li><button type="button" data-index="2" data-src="img/casilla-6-camas-interior.webp" data-alt="Interior de machimbre con mesada y camas de caño"><img src="img/casilla-6-camas-interior-th.webp" width="240" height="180" loading="lazy" alt=""></button></li>
@@ -232,8 +235,9 @@
         <div class="unit-media">
           <button class="unit-photo" type="button" data-index="0" aria-label="Ver fotos de la casilla dormitorio y comedor">
             <img src="img/casilla-comedor-exterior-sm.webp" srcset="img/casilla-comedor-exterior-sm.webp 720w, img/casilla-comedor-exterior.webp 1400w" sizes="(min-width: 1100px) 340px, (min-width: 700px) 46vw, 100vw" width="720" height="540" loading="lazy" decoding="async" alt="Casilla rural blanca con zócalo verde, dormitorio y comedor">
+            <span class="photo-count">5 fotos</span>
           </button>
-          <ul class="thumbs">
+          <ul class="thumbs" hidden>
             <li><button type="button" data-index="0" data-src="img/casilla-comedor-exterior.webp" data-alt="Casilla dormitorio y comedor, vista exterior"><img src="img/casilla-comedor-exterior-th.webp" width="240" height="180" loading="lazy" alt=""></button></li>
             <li><button type="button" data-index="1" data-src="img/casilla-comedor-mesa.webp" data-alt="Comedor con mesa y banquetas, al fondo las cuchetas"><img src="img/casilla-comedor-mesa-th.webp" width="240" height="180" loading="lazy" alt=""></button></li>
             <li><button type="button" data-index="2" data-src="img/casilla-comedor-cocina.webp" data-alt="Cocina con anafe y bajo mesada, interior de machimbre"><img src="img/casilla-comedor-cocina-th.webp" width="240" height="180" loading="lazy" alt=""></button></li>
@@ -268,8 +272,9 @@
         <div class="unit-media">
           <button class="unit-photo" type="button" data-index="0" aria-label="Ver fotos de la casilla con baño y aire acondicionado">
             <img src="img/casilla-con-bano-exterior-sm.webp" srcset="img/casilla-con-bano-exterior-sm.webp 720w, img/casilla-con-bano-exterior.webp 1200w" sizes="(min-width: 1100px) 340px, (min-width: 700px) 46vw, 100vw" width="720" height="540" loading="lazy" decoding="async" alt="Casilla rural con baño, puertas abiertas y escalera de acceso">
+            <span class="photo-count">5 fotos</span>
           </button>
-          <ul class="thumbs">
+          <ul class="thumbs" hidden>
             <li><button type="button" data-index="0" data-src="img/casilla-con-bano-exterior.webp" data-alt="Casilla con baño, vista exterior"><img src="img/casilla-con-bano-exterior-th.webp" width="240" height="180" loading="lazy" alt=""></button></li>
             <li><button type="button" data-index="1" data-src="img/casilla-con-bano-cocina.webp" data-alt="Cocina con bacha y alacenas, cuchetas con colchón"><img src="img/casilla-con-bano-cocina-th.webp" width="240" height="180" loading="lazy" alt=""></button></li>
             <li><button type="button" data-index="2" data-src="img/casilla-con-bano-cuchetas.webp" data-alt="Cuchetas con colchones"><img src="img/casilla-con-bano-cuchetas-th.webp" width="240" height="180" loading="lazy" alt=""></button></li>
@@ -304,8 +309,9 @@
         <div class="unit-media">
           <button class="unit-photo" type="button" data-index="0" aria-label="Ver fotos de la casilla de 7 metros">
             <img src="img/casilla-7-metros-lateral-sm.webp" srcset="img/casilla-7-metros-lateral-sm.webp 720w, img/casilla-7-metros-lateral.webp 1400w" sizes="(min-width: 1100px) 340px, (min-width: 700px) 46vw, 100vw" width="720" height="540" loading="lazy" decoding="async" alt="Casilla para obra de 7 metros, blanca con zócalo bordó">
+            <span class="photo-count">2 fotos</span>
           </button>
-          <ul class="thumbs">
+          <ul class="thumbs" hidden>
             <li><button type="button" data-index="0" data-src="img/casilla-7-metros-lateral.webp" data-alt="Casilla de 7 metros, vista lateral"><img src="img/casilla-7-metros-lateral-th.webp" width="240" height="180" loading="lazy" alt=""></button></li>
             <li><button type="button" data-index="1" data-src="img/casilla-7-metros-exterior.webp" data-alt="Casilla de 7 metros, vista desde el frente"><img src="img/casilla-7-metros-exterior-th.webp" width="240" height="180" loading="lazy" alt=""></button></li>
           </ul>
@@ -336,8 +342,9 @@
         <div class="unit-media">
           <button class="unit-photo" type="button" data-index="0" aria-label="Ver fotos de la oficina móvil">
             <img src="img/oficina-movil-frente-sm.webp" srcset="img/oficina-movil-frente-sm.webp 720w, img/oficina-movil-frente.webp 960w" sizes="(min-width: 1100px) 340px, (min-width: 700px) 46vw, 100vw" width="720" height="540" loading="lazy" decoding="async" alt="Oficina móvil negra con frente vidriado sobre tráiler">
+            <span class="photo-count">3 fotos</span>
           </button>
-          <ul class="thumbs">
+          <ul class="thumbs" hidden>
             <li><button type="button" data-index="0" data-src="img/oficina-movil-frente.webp" data-alt="Oficina móvil, puerta y frente vidriado"><img src="img/oficina-movil-frente-th.webp" width="240" height="180" loading="lazy" alt=""></button></li>
             <li><button type="button" data-index="1" data-src="img/oficina-movil-lateral.webp" data-alt="Oficina móvil, vista trasera sobre tráiler"><img src="img/oficina-movil-lateral-th.webp" width="240" height="180" loading="lazy" alt=""></button></li>
             <li><button type="button" data-index="2" data-src="img/oficina-movil-detalle.webp" data-alt="Oficina móvil, estantería interior"><img src="img/oficina-movil-detalle-th.webp" width="240" height="180" loading="lazy" alt=""></button></li>
@@ -371,16 +378,16 @@
 </section>
 
 <!-- TRASLADO -->
-<section class="section section-band" id="traslado" aria-labelledby="t-traslado">
+<section class="section section-soft" id="traslado" aria-labelledby="t-traslado">
   <div class="wrap band-grid">
     <figure class="band-media">
-      <img src="img/traslado-casilla-rural-carreton-sm.webp" srcset="img/traslado-casilla-rural-carreton-sm.webp 720w, img/traslado-casilla-rural-carreton.webp 1200w" sizes="(min-width: 900px) 46vw, 100vw" width="720" height="540" loading="lazy" decoding="async" alt="Casilla rural cargada en carretón durante un traslado por ruta">
+      <img src="img/casilla-comedor-campo-sm.webp" srcset="img/casilla-comedor-campo-sm.webp 720w, img/casilla-comedor-campo.webp 1200w" sizes="(min-width: 900px) 46vw, 100vw" width="720" height="540" loading="lazy" decoding="async" alt="Casilla rural instalada en el campo, lista para la cuadrilla">
     </figure>
     <div class="band-copy">
       <h2 id="t-traslado">Te la llevamos al campo o a la obra</h2>
       <p>La trasladamos en carretón desde Villa Allende y la dejamos nivelada y lista para usar. Cuando termina el alquiler, la pasamos a buscar.</p>
       <div class="formula">
-        <p class="formula-rate"><strong>$3.500</strong> por kilómetro</p>
+        <p class="formula-rate"><strong>$3.500</strong><span>por kilómetro</span></p>
         <p class="formula-eg">Ejemplo: una obra a 60 km → 60 × $3.500 = <strong>$210.000</strong> la entrega.</p>
       </div>
       <p class="small">Valor aproximado. Caminos de tierra o accesos complicados se cotizan aparte.</p>

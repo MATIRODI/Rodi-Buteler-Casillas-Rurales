@@ -235,16 +235,6 @@ $$('.unit').forEach(unit => {
   const items = $$('.thumbs button', unit).map(b => ({ src: b.dataset.src, alt: b.dataset.alt }));
   const open = i => { gallery = items; showPhoto(i); lb.showModal(); };
   $('.unit-photo', unit).addEventListener('click', () => open(0));
-  $$('.thumbs button', unit).forEach((b, i) => {
-    b.addEventListener('click', () => open(i));
-    // vista previa al pasar el mouse
-    b.addEventListener('mouseenter', () => {
-      const main = $('.unit-photo img', unit);
-      main.srcset = '';
-      main.src = b.dataset.src.replace(/\.webp$/, '-sm.webp');
-      $$('.thumbs button', unit).forEach(x => x.classList.toggle('on', x === b));
-    });
-  });
 });
 
 $('.lb-prev').addEventListener('click', () => showPhoto(gi - 1));
