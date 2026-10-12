@@ -1,0 +1,31 @@
+RODI-BUTELER CASILLAS RURALES - SITIO WEB
+==========================================
+
+Abrir en la compu: doble clic en index.html (algunas funciones necesitan internet para las fuentes).
+
+QUÉ EDITAR ANTES DE PUBLICAR
+----------------------------
+1) Precios
+   - js/main.js  -> bloque CONFIG al principio (casillas, comodidades, precio por km).
+   - index.html  -> mismo precio en el texto de cada tarjeta y en el bloque
+     "application/ld+json" (es lo que lee Google).
+
+2) Dominio
+   Reemplazar https://www.rodibuteler.com.ar/ por el dominio real en:
+   index.html, robots.txt y sitemap.xml.
+
+3) Teléfono / WhatsApp
+   Está cargado 351 650-8433 (5493516508433). Si cambia, buscar y reemplazar
+   en index.html y en js/main.js (whatsapp).
+
+PUBLICAR (opciones gratis o baratas)
+------------------------------------
+- Netlify Drop: entrar a app.netlify.com/drop y arrastrar la carpeta "web".
+- Hosting propio (Hostinger, DonWeb, etc.): subir el contenido de "web" a public_html.
+- Después: dar de alta el sitio en Google Search Console y enviar sitemap.xml,
+  y crear/actualizar el Perfil de Empresa de Google con el link del sitio.
+
+FOTOS
+-----
+img/  -> fotos optimizadas (.webp). Para cambiar una foto, reemplazar el archivo
+manteniendo el mismo nombre (versión grande, -sm y -th).
