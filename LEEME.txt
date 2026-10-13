@@ -11,7 +11,8 @@ QUÉ EDITAR ANTES DE PUBLICAR
      "application/ld+json" (es lo que lee Google).
 
 2) Dominio
-   Reemplazar https://www.rodibuteler.com.ar/ por el dominio real en:
+   El dominio es https://casillas.gruporodi.com.ar/ (subdominio de Grupo Rodi).
+   Si cambia, reemplazarlo en:
    index.html, robots.txt y sitemap.xml.
 
 3) Teléfono / WhatsApp

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://www.rodibuteler.com.ar/</loc>
+    <loc>https://casillas.gruporodi.com.ar/</loc>
     <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
-    <image:image><image:loc>https://www.rodibuteler.com.ar/img/casilla-rural-alquiler-cordoba.webp</image:loc></image:image>
-    <image:image><image:loc>https://www.rodibuteler.com.ar/img/casilla-6-camas-exterior.webp</image:loc></image:image>
-    <image:image><image:loc>https://www.rodibuteler.com.ar/img/casilla-comedor-exterior.webp</image:loc></image:image>
-    <image:image><image:loc>https://www.rodibuteler.com.ar/img/casilla-con-bano-exterior.webp</image:loc></image:image>
-    <image:image><image:loc>https://www.rodibuteler.com.ar/img/traslado-casilla-rural-carreton.webp</image:loc></image:image>
+    <image:image><image:loc>https://casillas.gruporodi.com.ar/img/casilla-rural-alquiler-cordoba.webp</image:loc></image:image>
+    <image:image><image:loc>https://casillas.gruporodi.com.ar/img/casilla-6-camas-exterior.webp</image:loc></image:image>
+    <image:image><image:loc>https://casillas.gruporodi.com.ar/img/casilla-comedor-exterior.webp</image:loc></image:image>
+    <image:image><image:loc>https://casillas.gruporodi.com.ar/img/casilla-con-bano-exterior.webp</image:loc></image:image>
+    <image:image><image:loc>https://casillas.gruporodi.com.ar/img/traslado-casilla-rural-carreton.webp</image:loc></image:image>
   </url>
 </urlset>
